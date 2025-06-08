@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <errno.h>
 #include "recon.h"
 
 int main(int argc, char *argv[]) {
@@ -25,6 +28,16 @@ int main(int argc, char *argv[]) {
     printf("4. SUBFINDER\n");
     printf("Enter options separated by commas (e.g., 1,3,4): ");
 
+    // Create output directory if it doesn't exist
+    struct stat st = {0};
+
+    if (stat("output", &st) == -1) {
+        if (mkdir("output", 0700) == -1) {
+        perror("Failed to create output directory");
+        return 1;  // Exit if directory creation fails
+        }
+    }
+
 
     char input[100];
     fgets(input, sizeof(input), stdin);
@@ -43,6 +56,7 @@ int main(int argc, char *argv[]) {
         }
         token = strtok(NULL, ",");
     }
+
 
     printf("\n[+] Recon finished. Output saved in the Output directory.\n");
     return 0;
