@@ -8,6 +8,12 @@ OneRecon is a simple yet powerful CLI tool written in C for performing essential
 3. Easy to extend with more recon tools
 4. Lightweight and fast, written in pure C
 
+file:///home/humza/Pictures/Screenshots/Screenshot%20from%202025-06-08%2015-40-11.png
+![Screenshot from 2025-06-08 15-42-11](https://github.com/user-attachments/assets/95a0734c-8124-41c6-91cf-735220818f20)
+![Screenshot from 2025-06-08 15-42-20](https://github.com/user-attachments/assets/52c85ca6-eb87-427c-bf6e-efb9cfa61846)
+
+
+
 📥 How to Download and Use
 
 1. Clone the repository:
