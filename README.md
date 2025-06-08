@@ -12,27 +12,27 @@ OneRecon is a simple yet powerful CLI tool written in C for performing essential
 
 1. Clone the repository:
 
-    ```git clone https://github.com/your-username/OneRecon.git```
-    ```cd OneRecon```
+```git clone https://github.com/your-username/OneRecon.git```
+```cd OneRecon```
    
 2. Ensure dependencies are installed:
 
-   You must have these tools installed on your system:
+You must have these tools installed on your system:
 
-   - whois
-   - nslookup (part of dnsutils on Linux)
-   - ping (usually pre-installed)
-   - subfinder (optional, for subdomain enumeration)
+- whois
+- nslookup (part of dnsutils on Linux)
+- ping (usually pre-installed)
+- subfinder (optional, for subdomain enumeration)
 
 NOTE: See the README.md for installation commands.
 
 3. Build the project:
 
-   ```make```
+```make```
 
 4. Run the tool:
  
-   ```./OneRecon targetdomain.com```
+```./OneRecon targetdomain.com```
    
 5. View results:
 
@@ -40,15 +40,16 @@ NOTE: See the README.md for installation commands.
 
 ⚙️ How to Contribute
 
-   -Feel free to open issues or submit pull requests to:
 
-   -Add new reconnaissance commands
+-Feel free to open issues or submit pull requests to:
 
-   -Improve existing functionality
+-Add new reconnaissance commands
 
-   -Enhance output formatting
+-Improve existing functionality
 
-   -Add error handling or dependency checks
+-Enhance output formatting
+
+-Add error handling or dependency checks
 
 
 
