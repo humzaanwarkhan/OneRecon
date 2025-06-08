@@ -1,5 +1,5 @@
 # OneRecon
-OneRecon is a simple yet powerful CLI tool written in C for performing essential domain reconnaissance tasks in one place.It automates commands like whois, nslookup, and ping to quickly gather information about target domains and save the results.
+OneRecon is a simple yet powerful CLI tool written in C for performing essential WEB domain reconnaissance tasks in one place.It automates commands like whois, nslookup, and ping to quickly gather information about target domains and save the results.
 
 🚀 Features
 
@@ -12,7 +12,7 @@ OneRecon is a simple yet powerful CLI tool written in C for performing essential
 
 1. Clone the repository:
 
-```git clone https://github.com/your-username/OneRecon.git```
+```git clone https://github.com/your-username/OneRecon.git``` 
 ```cd OneRecon```
    
 2. Ensure dependencies are installed:
