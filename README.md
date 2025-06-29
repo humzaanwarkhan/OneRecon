@@ -1,15 +1,19 @@
 # OneRecon
-OneRecon is a simple yet powerful CLI tool written in C for performing essential WEB domain reconnaissance tasks in one place.It automates commands like whois, nslookup, and ping to quickly gather information about target domains and save the results.
+OneRecon is a lightweight, beginner-friendly command-line reconnaissance tool built in Python for gathering essential information about target domains. It combines multiple recon steps into a single interface — making it fast and easy to collect WHOIS data, DNS records, ping responses, and subdomains (via crt.sh).
 
-🚀 Features
+⚙️ Developed by Humza Anwar Khan
 
-1. Runs WHOIS, NSLOOKUP, and PING tests automatically
-2. Saves output neatly into the output/ folder
-3. Easy to extend with more recon tools
-4. Lightweight and fast, written in pure C
+🔍 Features
+✅ WHOIS Lookup
+✅ DNS Lookup (NSLOOKUP)
+✅ Ping Test
+✅ Subdomain Enumeration (using crt.sh)
+✅ Output saved in structured text files
+✅ CLI Menu-Based Selection
+✅ Fully offline (except for HTTP-based checks)
+✅ Easy to modify and extend
 
-
-📥 How to Download and Use
+🚀 Installation
 
 1. Clone the repository:
 
@@ -25,19 +29,34 @@ You must have these tools installed on your system:
 - ping (usually pre-installed)
 - subfinder (optional, for subdomain enumeration)
 
-NOTE: See the README.md for installation commands.
+How to use?
 
-3. Build the project:
+Make sure you have Python 3.6+ and the following packages:
 
-```make```
+`pip install requests python-whois`
 
-4. Run the tool:
- 
-```./OneRecon targetdomain.com```
-   
-5. View results:
+🧪 Usage
 
- Check the 'output/' directory for the saved text files with recon data.
+`python onerecon.py <domain>`
+
+You'll be prompted to select recon steps like:
+
+Select which recon steps to run:
+1. WHOIS
+2. NSLOOKUP
+3. PING
+4. SUBFINDER (crt.sh)
+Enter options separated by commas (e.g., 1,3,4): 
+
+NOTE: Create a folder with name 'output' , your output will be saved there...
+
+
+⚠️ Notes
+
+- nslookup and ping must be available on your system (usually pre-installed).
+- This tool uses crt.sh (certificate transparency logs) for subdomain enumeration — no API key needed.
+- Ensure a working internet connection for network-based checks.
+
 
 ⚙️ How to Contribute
 
@@ -51,7 +70,6 @@ NOTE: See the README.md for installation commands.
 -Enhance output formatting
 
 -Add error handling or dependency checks
-
 
 
 # ---Developed by Humza Anwar Khan--- 
