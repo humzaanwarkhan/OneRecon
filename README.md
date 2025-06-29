@@ -45,7 +45,7 @@ Make sure you have Python 3.6+ and the following packages:
 
 🧪 Usage
 
-Type":
+Enter:
 
 `python onerecon.py <domain>`
 
