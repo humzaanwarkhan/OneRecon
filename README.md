@@ -45,6 +45,8 @@ Make sure you have Python 3.6+ and the following packages:
 
 🧪 Usage
 
+Type":
+
 `python onerecon.py <domain>`
 
 You'll be prompted to select recon steps like:
