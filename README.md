@@ -4,6 +4,7 @@ OneRecon is a lightweight, beginner-friendly command-line reconnaissance tool bu
 ⚙️ Developed by Humza Anwar Khan
 
 🔍 Features
+
 ✅ WHOIS Lookup
 ✅ DNS Lookup (NSLOOKUP)
 ✅ Ping Test
