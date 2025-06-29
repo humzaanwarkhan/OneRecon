@@ -6,12 +6,19 @@ OneRecon is a lightweight, beginner-friendly command-line reconnaissance tool bu
 🔍 Features
 
 ✅ WHOIS Lookup
+
 ✅ DNS Lookup (NSLOOKUP)
+
 ✅ Ping Test
+
 ✅ Subdomain Enumeration (using crt.sh)
+
 ✅ Output saved in structured text files
+
 ✅ CLI Menu-Based Selection
+
 ✅ Fully offline (except for HTTP-based checks)
+
 ✅ Easy to modify and extend
 
 🚀 Installation
